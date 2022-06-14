@@ -75,10 +75,6 @@ button:hover{
   box-shadow: none;
 }
 
-.primary-btn{
-  background-color: rgba(170, 55, 241, 0.677);
-  color: #fff;
-}
 
 #heading{
   text-align: center;
@@ -262,10 +258,11 @@ p{
   padding: 1.5rem 1.75rem;
   position: relative;
   margin-bottom: 10rem;
+  margin-top: 26rem;
 }
 form{
   display:flex;
-  margin-top: 26rem;
+  
   
   flex-direction: column;
 }
@@ -346,6 +343,7 @@ textarea{
   box-shadow: 0 5px 10px #ccc;
 
 }
+
 
 
 @media screen and (max-width:768px) {
