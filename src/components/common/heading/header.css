@@ -50,7 +50,7 @@ header ul li a:hover{
 
 @media screen and (max-width:768px){
     .start{
-        clip-path: none;
+        display:none;
     }
 
     header {
@@ -84,6 +84,7 @@ header ul li a:hover{
         width: 100%;
         background-color: rgba(170, 55, 241, 0.677);
     }
+    
 }
 
 

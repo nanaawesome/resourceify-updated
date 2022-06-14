@@ -1,6 +1,5 @@
 import { React, useEffect, useState } from "react";
 import Back from "../common/back/Back" ;
-import searchIcon from "../../search.svg";
 import "../../App.css";
 import { client, urlFor } from "../../client";
 import { AiFillStar } from 'react-icons/ai'
@@ -57,9 +56,6 @@ const IGCSE = () => {
         <div className="search">
         <input type="search" name="search-form" id="search-form" placeholder="Search for ..." value={q} onChange={(e) => setQ(e.target.value)}/>
 
-        <img 
-        src={searchIcon} 
-        alt="search"/>
         </div>
 
         <div className="filter-resource">
